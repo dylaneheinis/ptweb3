@@ -1,0 +1,579 @@
+/*-----------------------STYLE BODY et wrapper------------------------*/
+body{
+    font-family: Century Gothic;
+    
+}
+
+.wrapper{
+        width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*TEST AUTRE METHODE FLEXBOX MENU 1*/
+.header__menu1{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 5px;
+}
+
+.connexion_search{
+    position: absolute;
+    margin-top: 41%;
+        
+}
+
+.connexion{
+    position: absolute;
+    margin-left: 82%;
+}
+
+.connexion img{
+    width: 20px;
+}
+
+#searchthis {
+    width:90px;
+    height:20px;
+    background-color: rgba(159,162,204,.3);
+    border-bottom: 0.5px solid #c95199;
+
+}
+  
+#searchthis .loupe {
+    background:url(./images/icones/header/) no-repeat 0 0;
+    width:20px;
+    margin-left: 2px;
+}
+  
+#searchthis input {
+outline:0;
+border:0;
+margin:0;
+height:20px;
+float:left;
+display:block;
+}
+  
+#searchthis input[type=text] {
+font:300 11px Century Gothic;
+background: none;
+width:70px;
+padding:10 665px;
+}
+
+
+/*-----------------------LOGO------------------------*/
+.background{
+    background: #9badc4;
+    background-image: url(./images/header/background_header2.png);
+    background-attachment: fixed;    
+}
+
+header h1{
+    font-family: "Buffy";
+    font-size: 65px;
+    color: #FFF;
+    margin-top: 10px;
+    
+}
+
+/*-----------------------MENU 2------------------------*/
+.header__menu2 .block-visible{
+    padding-top: 5px;
+}
+
+.block-visible{
+    height: 20px;
+    cursor: pointer;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block-hidden {
+  display: none;
+}
+
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+}
+
+
+/* menu base styles */
+nav{
+background-color: #f3f1f1;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 3%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Century Gothic;
+    color: #6d6464;
+}
+
+nav img{
+    height: 12px;
+    position: absolute;
+}
+
+nav a:hover{
+    border-bottom: 2.5px solid #8471b1;
+}
+
+.fa{
+    color: #6d6464;
+    margin-top: 10px;    
+}
+
+
+/*FOOTER*/
+    
+    footer{
+        height: 300px;
+    }
+
+    .deuxieme{
+        background-color: #c0c2de;
+        padding-bottom: 10px;
+    }
+    
+    .troisieme{
+        background-color: grey;
+        padding-bottom: 15px;
+    }
+    
+    
+    .social-bar .sociaux{
+        width: 280px;
+        float: left;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #d1bad3;
+        font-size: 13px;
+    }
+    
+       .social-bar .newsletter{
+        width: 100px;
+        float: left;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #d1bad3;
+        font-size: 13px;
+        margin-left: 30px;
+    }
+    
+    .lol{
+        width: 100%;
+        float: right;
+        margin-left: 5px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #a294c4;
+    }
+    
+    .lol input{
+        margin-left: 5px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    .social-bar i{
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        border: 1px solid white;
+        margin-left: 5px;
+        margin-top: 5px;
+        line-height: 20px;
+        text-align: center;
+        color: white;
+
+    }
+    
+    .social-bar{
+        width: 100%;
+        height: 30px;
+        background-color: #8471b1;
+    }
+    
+    .newsletter{
+        width: 450px;
+    }
+
+
+/* flex styles */ 
+
+@media (min-width: 450px){
+    
+    .wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+    /*LE MENU 1*/
+    .header__menu1{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left:40px;
+        padding-right:40px;
+        padding-top: 5px;
+    }
+  
+    .connexion a:hover{
+
+    }
+    
+    .connexion{
+        position: absolute;
+        right: 50px;
+    }
+        
+    #searchthis {
+        width:100px;
+        height:24px;
+        background-color: rgba(159,162,204,.3);
+        border-bottom: 1px solid #c95199;
+        right: 120px;
+        position: absolute;
+    }
+    
+    #searchthis .loupe {
+    background:url(../images/icones/header/loupe.png) no-repeat 0 0;
+    width:18px;
+    margin-left: 2px;
+}
+  
+    #searchthis input {
+        outline:0;
+        border:0;
+        margin:0;
+        height:20px;
+        float:left;
+        display:block;
+    }
+
+    #searchthis input[type=text] {
+        font:300 11px Century Gothic;
+        background: none;
+        width:70px;
+        padding:5 665px;
+    }
+
+  /*Le LOGO*/
+    header h1{
+        font-family: "Buffy";
+        font-size: 71px;
+        color: #FFF;
+        margin-top: 10px;
+
+    }
+     
+    /*Le MENU 2*/
+    nav ul{
+        display: flex;
+    }
+    
+    
+    nav li{
+        flex:  1 1 0 ;
+       
+    }
+    
+    .fa{
+        color: #6d6464;
+        margin-top: 10px;
+        display: none;
+            
+    }
+    
+    .header__menu2 .block-visible{
+       display: none;
+}
+    
+    .block-hidden {
+      display:block;
+    }
+    
+    /*TEST MENU DEROULANT SOUS MENU  */
+    
+    #menu-vertical, #menu-vertical ul {
+      padding:0;
+      margin:0;
+      list-style:none;
+    }
+        #menu-vertical li {
+      position: relative;
+      background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
+    }
+        #menu-vertical a {
+      display:block;
+      
+      color: #000;
+    }
+
+        #menu-vertical ul {
+      position: absolute;
+      left:-999em;
+    }
+        #menu-vertical li:hover ul {
+          top: 25px;
+          left: 1px;
+        width: 100%;
+    }
+    
+    
+    /*FOOTER*/
+    
+    footer{
+        height: 325px;
+        background-color: grey;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .social-bar .sociaux{
+        width: 320px;
+        float: left;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #d1bad3;
+        font-size: 13px
+    }
+    
+       .social-bar .newsletter{
+        width: 100px;
+        float: left;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #d1bad3;
+        font-size: 13px;
+        margin-left: 30px
+    }
+    
+    .lol{
+        width: 400px;
+        float: right;
+        margin-left: 5px;
+        line-height: 20px;
+        text-align: center;
+        background-color: #a294c4;
+    }
+    
+    .lol input{
+        margin-left: 5px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 2px;
+        color: #8471b1;
+    }
+    
+    .social-bar i{
+        position: relative;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        border: 1px solid white;
+        margin-left: 5px;
+        margin-top: 5px;
+        line-height: 20px;
+        text-align: center;
+        color: white;
+
+    }
+    
+    .social-bar{
+        width: 100%;
+        height: 30px;
+        background-color: #8471b1;
+    }
+    
+    .newsletter{
+        width: 450px;
+    }
+    
+    .mentions h2{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .mentions p{
+        font-size: 12px;
+        width: 300px;
+    }
+    
+    .cb img{
+        width: 40px;
+        height: 40x;
+    }
+        
+    .mykase{
+        width: 220px;
+        line-height: 20px;
+
+    }
+    
+    .propos{
+    width: 230px;
+        line-height: 20px;
+    }
+    
+    .service{
+        width: 220px;
+        line-height: 20px;
+    }
+    
+    .mentions{
+        display: flex;
+        flex-direction: row;
+        margin-left: 32px;
+        margin-top: 30px;
+    }
+    
+    .copyright{
+        float: right;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    
+    
+    /*MAIN*/
+    main{height: 500px;}
+}
+
+    /*CONTENU*/
+
+    .baniere img{
+    width: 1010px;
+   margin-left: 120px;
+    margin-top: 15px;
+}
+
+
+
+hr{
+ margin-left: 100px;  
+ margin-right: 100px;
+color: grey;
+}
+
+h1{
+    color: #cb5fab;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    text-align: center;
+text-transform: uppercase;}
+
+h4{
+    color:#d16bb3;
+    font-weight: lighter;
+    font-family: "JoseFinSansR";
+    text-align: center;}
+
+.presentation{
+    font-family: "JosefinSansR";  
+}
+
+
+.contenu{
+ height: 100%;  
+margin-bottom: 25px;
+}
+
+.telephone{
+ margin-left: 220px;   
+}
+.cadres
+{
+/*float: left;
+width: 350px;
+margin-left: 50px;*/
+display: inline;
+margin: 0 auto; 
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.services a{
+ display: inline-block;
+    text-align: center; 
+}
+
+.cadres a{
+ display: inline-block;
+    text-align: center; 
+}
+
+.services{
+/*float: left;
+width: 12%;*/
+display: inline;
+margin: 0 auto; 
+padding-left: 150px;
+margin-top: 15px;
+text-transform: none;
+
+}
+
+.produits{
+ font-size: 20px;
+color: #9b9e9f;
+text-transform: uppercase;
+
+}
+
+.presentation{
+ text-align: center;   
+}
+
+.bas{
+ color: #78338b;
+
+}
+
+
+/*-----------------------AJOUT FONT------------------------*/
+@font-face {
+    font-family: "JosefinSansR";
+    src: url(../fonts/josefin-sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DkBocadillo";
+    src: url(./fonts/dk_bocadillo/DK%20Bocadillo.otf);
+}
+
+@font-face {
+    font-family: "Buffy";
+    src: url(./fonts/buffy/Buffy.ttf);
+}

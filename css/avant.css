@@ -1,0 +1,119 @@
+/*-----------------------AJOUT FONT------------------------*/
+/*@font-face {
+    font-family: JosefinSansR;
+    src: url(../fonts/josefin-sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: DkBocadillo;
+    src: url(./fonts/dk_bocadillo/DK%20Bocadillo.otf);
+}
+
+@font-face {
+    font-family: Buffy;
+    src: url(./fonts/buffy/Buffy.ttf);
+}
+
+/*-----------------------LOGO------------------------*/
+/*.background{
+    background: #9badc4;
+}
+
+header h1{
+    font-family: "Buffy";
+    font-size: 70px;
+    color: #FFF;
+    margin-top: 10px;
+    
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+body{}
+
+.wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header__social_media{
+    display: flex;
+    width: 285px;    
+}
+
+/* menu base styles */
+nav{
+background-color: #f3f1f1;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Century Gothic;
+    color: #6d6464;
+}
+
+nav img{
+    height: 12px;
+    position: absolute;
+    
+    
+}
+
+nav a:hover{
+    border-bottom: 2.5px solid #8471b1;
+}
+
+
+/* flex styles */ 
+
+@media screen and (min-width: 450px){
+     
+    nav ul{
+        display: flex;
+    }
+    
+    nav li{
+        flex:  1 1 0 ;
+       
+    }*/
+    
+    #menu-vertical, #menu-vertical ul {
+      padding:0;
+      margin:0;
+      list-style:none;
+      width: 100px; /* seule ligne rajoutée */
+    }
+        #menu-vertical li {
+      position: relative;
+      background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
+    }
+        #menu-vertical a {
+      display:block;
+      text-decoration: none;
+      color: #000;
+    }
+
+        #menu-vertical ul {
+      position: absolute;
+      left:-999em;
+    }
+        #menu-vertical li:hover ul {
+      top: 30px;
+    left: 5px;}
+}
+

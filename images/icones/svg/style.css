@@ -1,0 +1,28 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-compte {
+  width: 1.1015625em;
+}
+
+.icon-deconnexion {
+  width: 1.0732421875em;
+}
+
+.icon-loupe {
+  width: 1.0703125em;
+}
